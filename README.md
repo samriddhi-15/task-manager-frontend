@@ -14,10 +14,14 @@ A React + TypeScript task management experience that simulates authentication an
 
 ## Getting started
 
-```bash
+## Installation
+
+```sh
+git clone https://github.com/samriddhi-15/task-manager-frontend.git
 cd task-manager-frontend
 npm install
 npm run dev
+
 ```
 
 - The MSW worker boots automatically in dev/preview builds.
