@@ -15,7 +15,7 @@ vi.mock('./auth/LoginForm', () => ({
 }));
 
 beforeAll(() => {
-  // jsdom doesn't implement matchMedia by default
+  
   window.matchMedia = window.matchMedia ?? (() => ({
     matches: false,
     media: '',

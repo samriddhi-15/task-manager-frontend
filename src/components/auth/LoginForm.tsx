@@ -1,4 +1,5 @@
-import { FormEvent, useId, useState } from 'react';
+import { useId, useState } from 'react';
+import type { FormEvent } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 
 export function LoginForm() {

@@ -1,4 +1,6 @@
-import { FormEvent, useId, useState } from 'react';
+import { useId, useState } from 'react';
+import type { FormEvent } from 'react';
+
 import { useTasks } from '../../contexts/TaskContext';
 
 export function TaskForm() {
